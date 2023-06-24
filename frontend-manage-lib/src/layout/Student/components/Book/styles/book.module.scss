@@ -1,0 +1,145 @@
+.book{
+    width: 90%;
+    padding: 20px 5%;
+ 
+    .mainBook{
+        width: 100%;
+        margin-top:30px ;
+        .search{
+            width: 100%;
+            // background-color: #7b0f6f;
+            background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            border-radius: 5px;
+            form{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 0;
+                .item{
+                    width: 20%;
+                    padding-left: 4%;
+                    margin-top: -6px;
+                    p{
+                        margin: 3px 0;
+                        font-size: 13px;
+                        color: #ffffff;
+                        font-family: "Poppins",sans-serif;
+                    }
+                    input,select{
+                        border: 1px solid #DADADA;
+                        outline: none;
+                        padding: 5px 8px;
+                        border-radius: 3px;
+                    }
+                    select{
+                        width: 75%;
+                    }
+                    button{
+                        margin-top: 26px;
+                        padding: 6px 16px;
+                        border: none;
+                        background-color: rgb(200, 188, 25);
+                        color: #ffffff;
+                        border-radius: 4px;
+                        font-weight: 630;
+                    }
+                }
+            }
+            
+        }
+        .listBook{
+            width: 100%;
+            margin-top: 40px;
+            .headerList{
+                button{
+                    padding: 12px 15px;
+                    // background-color: #770b60;
+                    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                    color: #ffffff;
+                    font-weight: 630;
+                    border-radius: 5px;
+                    border: none;
+                    // box-shadow: 1px 1px 1px 1px #770b60;
+                }
+            }
+            h3{
+                // color: #770b60;
+                background:  -webkit-linear-gradient(#4e4376, #2b5876);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 22px;
+            }
+            .viewBook{
+                width: 100%;
+                display: grid;
+                grid-template-columns:  19% 19% 19% 19% 19%;
+                grid-template-rows: 300px;
+                grid-gap: 16px;
+
+                .bookcard{
+                    padding: 5px 8px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    background: #797a7a9a;
+                    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6fabe3b6, #d3e5f1b7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a87dca3, #8cb4cf9e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                    box-shadow: 1px 1px 1px 1px #7c7c7c;
+                    // box-shadow: 1px 1px 1px 1px #2593a7;
+                    box-sizing: border-box;
+                    // overflow: hidden;
+                    .image{
+                        width: 60%;
+                        height: 60%;
+                        padding: 10px 20%;
+                        // background-image: url("../../../../../asset/images/frame-image.JPG");
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+                    .contain{
+                        // margin-top: 8px;
+                        width: 90%;
+                        padding: 8px 5%;
+                        margin-top: 10px;
+                        font-family: "Popins",sans-serif;
+                        // background-color: #FFFFFF;
+                        // border-top-right-radius:8px ;
+                        // border-top-left-radius: 8px;
+                        p{
+                            margin: 0 0;
+                            // margin-bottom: 3px;
+                            font-size: 14px;
+                            // color: #ffffff;
+                            display: flex;
+                            justify-content: space-between;
+                            span{
+                                font-weight: 670;
+                                color: rgb(11, 11, 11);
+                                // color: #ffffff;
+                                font-size: 16px;
+                                text-align: start;
+                            }
+                            .content{
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: "Poppins",sans-serif;
+                                width: 85%;
+                                margin-top: -3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+.notification{
+    width: 90%;
+    padding: 10px 5%;
+    border-bottom: 0.2px solid #333;
+    background-color: rgb(78, 79, 79);
+    color: #ffffff;
+    .title{
+        font-size: 12px;
+        span{
+            font-weight: bold;
+        }
+        p{
+            margin-bottom: 0px;
+            margin-top: 5px;
+            span{
+                i{
+                    font-size: 14px;
+                    color: rgb(15, 171, 64);
+                }
+            }
+           
+        }
+    }
+    .content{
+        font-size: 11px;
+    }
+}

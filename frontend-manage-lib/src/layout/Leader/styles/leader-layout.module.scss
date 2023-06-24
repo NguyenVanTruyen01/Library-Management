@@ -1,0 +1,45 @@
+@import "src/asset/helpers/variable";
+
+.container {
+  @include display-flex;
+
+  .sidebar {
+    width: 15%;
+    height: 100vh;
+  }
+
+  .main {
+    width: 85%;
+    height: 100vh;
+
+    .nav {
+      height: 8%;
+      width: 100%;
+      color: white;
+    }
+
+    .content {
+      width: 100%;
+      height: 92%;
+      scroll-behavior: smooth;
+      overflow-y: 'scroll';
+      overflow-x: hidden;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+        /*Gives you width to the scrollbar*/
+        border-radius: 2px;
+      }
+
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+        /*Gives styles to the scrollbar*/
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(97, 94, 94);
+        /*Gives background color to the scrollbar*/
+      }
+    }
+  }
+}

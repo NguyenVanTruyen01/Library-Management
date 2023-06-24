@@ -1,0 +1,58 @@
+.oder{
+    width: 90%;
+    padding: 20px 5%;
+    .titleLeader{
+        margin-top: 40px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        color: #1750c3;
+        h3 {
+            color: #172d65;
+            font-size: 18px;
+            font-weight: 400;
+            font-style:normal;
+            font-family: "Roboto", helvetica, arial, sans-serif;
+            text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+            text-transform:uppercase;
+        }
+    }
+    .listOder{
+        width: 100%;
+       
+        .bookOder{
+           width: 96%;
+           padding: 4px 2%;
+           border-radius: 3px;
+           border: 1px solid #1750c3;
+           color: #333333;
+        //    background-color: #5d706c;
+        //    color: #ffffff;
+           margin-top: 10px;
+           .titleOder{
+            display:flex;
+            justify-content: space-between;
+            font-size: 16px;
+            p{
+                margin: 6px 0;
+                span{
+                    font-size: 18px;
+                }
+                button{
+                    // background-color: #af7d5b;
+                    border: none;
+                    padding: 5px 8px;
+                    color: #dd2222;
+                    border-radius: 4px;
+                    font-weight: 600;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+           }
+        }
+        .empty{
+            color: #333333;
+        }
+    }
+}

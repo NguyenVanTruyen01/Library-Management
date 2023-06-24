@@ -1,0 +1,178 @@
+.sidebarEdit{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(107, 105, 105, 0.7);
+    z-index: 1;
+    .containerEdit{
+      width: 30%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: #FFFFFF;
+      &::-webkit-scrollbar {
+        width: 4px;
+        /*Gives you width to the scrollbar*/
+        border-radius: 2px;
+      }
+
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+        /*Gives styles to the scrollbar*/
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(97, 94, 94);
+        /*Gives background color to the scrollbar*/
+      }
+      form{
+        width: 90%;
+        padding: 0 5%;
+        height: 100%;
+        .headerEdit{
+          width: 100%;
+          padding: 8px 0;
+          .close{
+            font-size: 20px;
+            i{
+              color: #000000;
+            }
+          }
+        }
+        .bodyEdit{
+          width: 100%;
+          padding: 8px 0;
+          font-family: "Poppins", sans-serif;
+          .title{
+            p{
+              font-size: 20px;
+              color: #ad180d;
+              margin: 5px 0;
+            }
+          }
+          .formField{
+            .qrCode{
+              p{
+                color: #eb0c09;
+                // font-weight: bold;
+              }
+              .imageQr{
+                height: 100px;
+                width: 100px;
+              }
+            }
+            .status{
+              margin-top: 22px;
+              color: #eb0c09;
+              // font-weight: bold;
+              span{
+                color: #000000;
+                font-weight: 400;
+              }
+            }
+            .layout{
+              width: 100%;
+              margin-top: 20px;
+              .item1{
+                position: relative;
+                span{
+                  position: absolute;
+                  left: 10px ;
+                  bottom: 4px;
+                  color: #3b3a3a;
+                }
+                p{
+                  margin-bottom: 5px;
+                  font-size: 14px;
+                }
+                input{
+                  border: 0.5px solid #bbbaba;
+                  outline: none;
+                  // padding: 16px 18px 15px 10px;
+                  padding-left: 30px;
+                  padding-top:7px ;
+                  padding-bottom: 7px;
+                  width: 88%;
+                }
+              }
+              .item{
+                background: #333;
+                width: 93%;
+                padding: 4px 5%;
+                border-radius: 6px;
+                margin-bottom: 12px;
+                .imageBook{
+                  width: 50%;
+                  height: 80px;
+                }
+                .infoBook{
+                  div{
+                    // font-weight: 600;
+                    margin-bottom: 12px;
+                    color: #FFFFFF;
+                  }
+                  .quantity{
+                    color: #FFFFFF;
+                    i{
+                      font-size: 16px;
+                    }
+                  }
+                  .price{
+                    color: #FFFFFF;
+                    i{
+                      font-size: 16px;
+                    }
+                  }
+                  .title{
+                    color: #FFFFFF;
+                    i{
+                      font-size: 16px;
+                    }
+                  }
+                }
+                p{
+                  margin-bottom: 5px;
+                  margin-top: 5px;
+                  font-size: 14px;
+                }
+                input{
+                  border: 0.5px solid #bbbaba;
+                  outline: none;
+                  width: 95%;
+                  padding: 4px 2.5%;
+                }
+              }
+            }
+            .svList{
+              margin-top: 20px;
+              .sv{
+                // border-radius: 4px;
+                color: #3b3a3a;
+                font-weight: 600;
+                font-size: 14px;
+                // background: #107488;
+                padding: 7px 2.5%;
+              }
+            }
+          }
+        }
+        // .bottomEdit{
+        //   width: 100%;
+        //   padding: 12px 0;
+        //   font-family: "Poppins", sans-serif;
+        //   button{
+        //     padding: 10px 20px;
+        //     background: #107488;
+        //     border: none;
+        //     outline: none;
+        //     color: #FFFFFF;
+        //     border-radius: 3px;
+          
+        //   }
+        // }
+      }
+    }
+  }

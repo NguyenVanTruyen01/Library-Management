@@ -1,0 +1,109 @@
+@import "src/asset/helpers/variable";
+
+.sidebar {
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 1px 1px solid #747171;
+  color: #ffffff;
+  background: #105577;
+
+  .header {
+    height: 28%;
+    width: 100%;
+
+    .mainheader {
+      width: 100%;
+    }
+  }
+
+  .menu {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    padding-left: 10%;
+    height: 92%;
+    width: 90%;
+
+    // box-shadow: 1px 1px 1px #747171;
+    .item {
+      width: 100%;
+      text-align: start;
+      padding: 0px 0%;
+      font-size: 18px;
+      // margin-top: 12px;
+      border-bottom: 0.1px solid rgb(188, 187, 187);
+      height: 60px;
+
+      .mainItem {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        // padding: 6px 0;
+        // padding-top: 3px;
+        // padding-bottom: 14px;
+
+        transition: all 0.70s;
+        -webkit-transition: all 0.70s;
+
+        a {
+          font-family: "Poppins", sans-serif;
+          padding-left: 15px;
+          // color: #FFFFFF;
+
+          // margin-top: 50px;
+          .name1 {
+            margin-left: 25px;
+            color: #ffffff;
+          }
+          .icon1{
+            color: #ffffff;
+          }
+        }
+
+        &:hover {
+          background: #ffffff;
+          // border-radius: 10px;
+
+          a {
+            color: #131313;
+            .icon1{
+              color: #131313;
+            }
+            .name1{
+              color: #131313;
+            }
+          }
+
+        }
+      }
+    }
+    // .activeColor0{
+    //   border-right: 2px solid #cc1212;
+    // }
+
+  }
+}
+
+.image {
+  margin-top: 30px;
+  margin-left: 25%;
+  padding: 10px;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+  >div{
+    border-radius: 50%;
+  }
+}
+
+.name {
+  margin-top: 10px;
+  text-align: center;
+  // color: #131313;
+}

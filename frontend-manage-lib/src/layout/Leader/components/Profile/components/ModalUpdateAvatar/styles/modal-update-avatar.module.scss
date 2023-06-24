@@ -1,0 +1,128 @@
+@import "src/asset/helpers/variable";
+
+.updateAvaterModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(107, 105, 105, 0.7);
+
+  .main {
+    width: 44%;
+    height: auto;
+    padding-bottom: 18px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .header {
+      width: 90%;
+      padding: 10px 5%;
+      background: #107488;
+      color: #fbfafa;
+      border-bottom: 1px solid #969494;
+
+      .close {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .changeAvatar {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center;
+
+      .authorChangeAvatar {
+        width: 300px;
+        border-radius: 50%;
+
+        .profileAuthorChange {
+          width: 100%;
+          height: 300px;
+          position: relative;
+
+          .avatar {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 3px solid #CED0D4;
+            border-radius: 50%;
+            position: relative;
+          }
+
+          .edit_dp {
+            position: absolute;
+            width: 10px;
+            right: 57px;
+            bottom: 28px;
+
+            .fileContainer {
+              width: 60px;
+              height: 60px;
+
+              >i {
+                font-size: 2rem;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.fileContainer {
+  width: 38px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  border: 1px solid #757a95;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  i {
+    color: #222;
+    display: block;
+    margin: auto;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+.groupBtn {
+  display: flex;
+  gap: 0.6rem;
+
+  >button {
+    min-width: 110px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: .9;
+  }
+
+  >button:hover {
+    opacity: 1;
+  }
+
+  .cancel {
+    background: #202020;
+  }
+
+  .save {
+    background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  }
+}

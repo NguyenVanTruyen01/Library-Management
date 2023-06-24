@@ -1,0 +1,55 @@
+.policy{
+    background-color: rgba(166, 159, 150, 0.327);
+    width: 68%;
+    padding: 30px 16%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: 'scroll';
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+        width: 4px;/*Gives you width to the scrollbar*/
+        border-radius: 2px;
+    }
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);/*Gives styles to the scrollbar*/
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(97, 94, 94);/*Gives background color to the scrollbar*/
+    }
+    .policyMain{
+        background-color: #ffffff;
+        height: 100%;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        padding: 20px 0;
+        .title{
+            font-size: 25px;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 700;
+            color: #111111;
+            text-align: center;
+
+        }
+        .mucluc{
+            width: 90%;
+            padding: 10px 5%;
+            font-weight: 700;
+            font-size: 16px;
+            color: rgb(203, 32, 32);
+        }
+        .content{
+            width: 90%;
+            padding: 5px 5%;
+            font-size: 15px;
+            font-weight: 570;
+            .titlePolicy{
+                color: #382275;
+                font-weight: 650;
+                font-size: 18px;
+            }
+            p{
+                margin: 5px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.listOverview{
+    width: 100%;
+    margin-bottom: 80px;
+    .overviewItem{
+        border-radius: 10px;
+        padding: 10px 5px;
+        width: 20%;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        color: #ffffff;
+        &IC{
+            font-size: 38px;
+            
+            margin-left: 10px;
+        }
+        &Content{
+            margin-right: 10px;
+            p{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .count{
+                font-weight: 700;
+                font-size: 25px;
+            }
+        }
+
+    }
+}

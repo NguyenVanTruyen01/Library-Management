@@ -1,0 +1,166 @@
+.main {
+    width: 90%;
+    padding: 40px 5%;
+
+    .groupActionTable {
+        flex: 1;
+        display: flex;
+
+        .titleTable {
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #757575;
+
+        }
+    }
+}
+
+.formCreateBook {
+    display: flex;
+    padding-top: 10px;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    .imgBook {
+
+        position: relative;
+        height: fit-content;
+        min-width: 300px;
+
+        .addImg {
+            height: 446px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #757575;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            >div {
+                font-size: 20px;
+            }
+
+            >i {
+                font-size: 80px;
+                color: #757575;
+            }
+        }
+
+
+        >img {
+            height: 446px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #757575;
+
+        }
+
+        .editCoverBook {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            right: 0px;
+            top: 0px;
+            border-radius: 0 8px 0 8px;
+            overflow: hidden;
+            display: flex;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: #105577;
+            opacity: 0.5;
+
+            &:hover {
+                opacity: 0.8;
+            }
+
+            >label {
+                cursor: pointer;
+
+                >i {
+                    font-size: 30px;
+                    color: #ffffff;
+                }
+
+                >input {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    .lableTextarea {
+        font-size: 16px;
+        padding: 0 14px;
+        color: #757575;
+    }
+
+    .textarea {
+        border-radius: 3px;
+        border: 1px solid #c4c4c4;
+    }
+}
+
+.groupBtn {
+    padding: 10px 0;
+    margin-bottom: 2rem;
+
+    button {
+        min-width: 150px;
+        padding: 12px 25px;
+        border: none;
+        font-size: 14px;
+        background-color: rgb(21, 109, 109);
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+        transition: all 0.70s;
+        -webkit-transition: all 0.70s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .btnAdd {
+        margin-right: 20px;
+        background-color: #1F8A70;
+    }
+}
+
+.generateQR {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+
+    >img {
+        width: 130px;
+        height: 130px;
+    }
+
+    >a {
+        padding: 10px;
+        font-weight: 600;
+        padding: 10px;
+        color: blue;
+        opacity: 0.6;
+
+        &:hover {
+            opacity: 1;
+        }
+
+
+    }
+
+}

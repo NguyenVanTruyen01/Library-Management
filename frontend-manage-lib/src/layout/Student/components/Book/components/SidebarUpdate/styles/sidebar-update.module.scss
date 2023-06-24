@@ -1,0 +1,117 @@
+.sidebarEdit{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(107, 105, 105, 0.7);
+    z-index: 1;
+    .containerEdit{
+      width: 30%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: #FFFFFF;
+      form{
+        width: 90%;
+        padding: 0 5%;
+        height: 100%;
+        .headerEdit{
+          width: 100%;
+          padding: 8px 0;
+          .close{
+            font-size: 20px;
+            i{
+              color: #000000;
+            }
+          }
+        }
+        .bodyEdit{
+          width: 100%;
+          padding: 8px 0;
+          font-family: "Poppins", sans-serif;
+          .title{
+            p{
+              font-size: 20px;
+              color: #ad180d;
+              margin: 5px 0;
+            }
+          }
+          .formField{
+            .imageBook{
+              width: 100%;
+              .image{
+                width: 200px;
+                height: 300px;
+                .img{
+                 
+                    width: 100%;
+                    height: 100%;
+                  
+                }
+              }
+            }
+            .layout{
+              width: 100%;
+              .item1{
+                width: 45%;
+
+                p{
+                  margin-bottom: 5px;
+                  font-size: 14px;
+                }
+                input{
+                  border: 0.5px solid #bbbaba;
+                  outline: none;
+                  padding: 4px 10px;
+                  width: 88%;
+                }
+              }
+              .item{
+                textarea{
+                  width: 100%;
+                }
+                width: 100%;
+                p{
+                  margin-bottom: 5px;
+                  font-size: 14px;
+                }
+                input{
+                  border: 0.5px solid #bbbaba;
+                  outline: none;
+                  width: 95%;
+                  padding: 4px 2.5%;
+                }
+              }
+            }
+            .svList{
+              margin-top: 20px;
+              .sv{
+                // border-radius: 4px;
+                color: #3b3a3a;
+                font-weight: 600;
+                font-size: 14px;
+                // background: #107488;
+                padding: 7px 2.5%;
+              }
+            }
+          }
+        }
+        .bottomEdit{
+          width: 100%;
+          padding: 12px 0;
+          font-family: "Poppins", sans-serif;
+          button{
+            padding: 10px 20px;
+            background: #107488;
+            border: none;
+            outline: none;
+            color: #FFFFFF;
+            border-radius: 3px;
+          
+          }
+        }
+      }
+    }
+  }

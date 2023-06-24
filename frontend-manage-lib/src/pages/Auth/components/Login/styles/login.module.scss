@@ -1,0 +1,117 @@
+@import "src/asset/helpers/variable";
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media #{$media-small-phone} {
+    background-color: #1f1e1e;
+  }
+
+  form{
+    width: 70%;
+    height: auto;
+    .loginFormTitle{
+      h2{
+        text-align: center;
+        color: #1f1e1e;
+      }
+      p{
+        text-align: center;
+      }
+    }
+    .loginFormSocial{
+      display: flex;
+      justify-content: space-between;
+      span{
+        width: 20%;
+        padding: 10px 20px;
+        border: 1px solid #DADADA;
+        text-align: center;
+        font-size: 30px;
+        border-radius:5px;
+        color: #0c469a;
+      }
+      .color{
+        color: #ad180d;
+      }
+    }
+    .loginFormLine{
+      display: flex;
+      margin-top: 20px;
+      .line{
+        width: 47%;
+        height: 1px;
+        background: #b1b1b4;
+        margin-top: 10px;
+      }
+      .or{
+        width: 4%;
+        padding: 0px 1%;
+        color: #dadada;
+
+      }
+    }
+    .loginFormBody{
+      width: 100%;
+
+      .loginFormBodyItem{
+        margin-top: 28px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        input{
+          width: 100%;
+          height: 25px;
+          font-size: 14px;
+          padding: 10px 15px;
+          color: #6f6d6d;
+          border: 1px solid #918f8f;
+          border-radius: 10px;
+        }
+        :focus{
+          outline: none;
+        }
+        span{
+          position: absolute;
+          top:50px;
+          color:red;
+          font-size: 12px;
+          left: 10px;
+        }
+      }
+    }
+    .loginFormBottom{
+      padding: 40px 0px;
+      .loginFormBottomAction{
+        width: 100%;
+        @include display-flex;
+        button{
+          padding: 10px 30px;
+          font-size: 15px;
+          font-weight: bold;
+          width: 100%;
+          border: none;
+          border-radius: 3px;
+          background-color: #5e6cce;
+          color: #ffffff;
+        }
+        :hover{
+          background-color: #2a2a94;
+          color: #ffffff;
+        }
+      }
+      .loginFormBottomRegisterOrLogin{
+        p{
+          text-align: center;
+          color: #232222;
+          font-size: 14px;
+          span{
+            text-decoration: none;
+            color: blue;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

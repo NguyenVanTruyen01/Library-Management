@@ -1,0 +1,63 @@
+.main {
+    width: 90%;
+    padding: 40px 5%;
+
+    .groupActionTable {
+        flex: 1;
+        display: flex;
+
+        .titleTable {
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #757575;
+        }
+    }
+}
+
+.formCreateBook {
+    display: flex;
+    padding-top: 10px;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    .lableTextarea {
+        font-size: 16px;
+        padding: 0 14px;
+        color: #757575;
+    }
+
+    .textarea {
+        border-radius: 3px;
+        border: 1px solid #c4c4c4;
+        font-size: 17px;
+    }
+}
+
+.groupBtn {
+    padding: 10px 0;
+    margin-bottom: 2rem;
+
+    button {
+        min-width: 150px;
+        padding: 12px 25px;
+        border: none;
+        font-size: 14px;
+        background-color: rgb(21, 109, 109);
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .btnAdd {
+        margin-right: 20px;
+        background-color: #879e16;
+    }
+}

@@ -1,0 +1,190 @@
+@import "src/asset/helpers/variable";
+
+.registerModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(107, 105, 105, 0.7);
+
+  .main {
+    width: 60%;
+    height: auto;
+    padding-bottom: 18px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+
+
+    .header {
+      width: 90%;
+      padding: 10px 5%;
+      background: #105577;
+      color: #fbfafa;
+      border-bottom: 1px solid #969494;
+
+      .close {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .bottom {
+      width: 90%;
+      padding: 5px 5%;
+      margin-top: 16px;
+
+      button {
+        padding: 10px 25px;
+        font-size: 14px;
+        background: #105577;
+        border: none;
+        color: white;
+        border-radius: 3px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .body {
+      font-family: "Poppins", sans-serif;
+      margin-top: 2rem;
+
+      form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .containerField {
+          width: 90%;
+          padding: 0 5%;
+          display: flex;
+          gap: 1.5rem;
+
+          .itemField {
+            width: 45%;
+            position: relative;
+            margin-top: 8px;
+
+            .error {
+              position: absolute;
+              bottom: -18px;
+              color: rgb(213, 30, 30);
+              font-size: 10px;
+            }
+
+            p {
+              margin-bottom: 4px;
+              font-size: 14px;
+            }
+
+            input {
+              border: 1px solid #696969;
+              outline: none;
+              border-radius: 4px;
+              padding: 6px 10px;
+              width: 91%;
+            }
+
+            select {
+              border: 1px solid #696969;
+              outline: none;
+              border-radius: 4px;
+              padding: 6px 14px;
+              width: 200px;
+            }
+          }
+        }
+
+      }
+
+
+
+    }
+
+    .dayReport {
+      width: 90%;
+      padding: 0 5%;
+
+      p {
+        margin-bottom: 4px;
+        font-size: 14px;
+      }
+
+      input {
+        border: 1px solid #696969;
+        outline: none;
+        border-radius: 4px;
+        padding: 8px 6px;
+        width: 97%;
+      }
+    }
+
+    .desTopic {
+      width: 90%;
+      padding: 0 5%;
+
+      p {
+        margin-bottom: 4px;
+        font-size: 14px;
+      }
+
+      textarea {
+        padding: 8px 10px;
+        width: 97%;
+        height: 150px;
+        outline: none;
+      }
+    }
+  }
+}
+
+.loginFormBodyItem {
+  width: 100%;
+  // padding: 0px 2.5%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  :focus {
+    outline: none;
+  }
+
+  input {
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    padding: 10px;
+    color: #6f6d6d;
+    border: 1px solid #918f8f;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ffffff;
+  }
+
+
+  :focus {
+    outline: none;
+    border: 1px solid #697fe2;
+  }
+
+  span {
+    position: absolute;
+    top: -11px;
+    color: #697fe2;
+    font-size: 15px;
+    left: 30px;
+    border-radius: 6px 6px 0 0;
+    padding: 0 6px;
+    pointer-events: none;
+    background: #ffffff;
+
+  }
+}

@@ -1,0 +1,152 @@
+.listOverview {
+    width: 100%;
+    margin-bottom: 80px;
+
+    a{
+        width: 20%;
+
+        &:nth-child(1) {
+            .overviewItem {
+                border-radius: 10px;
+                padding: 10px 5px;
+                cursor: pointer;
+        
+                    background-color: #00425A;
+                    background-image: linear-gradient(160deg, #00425A 0%, #90d9f3 100%);
+                    color: #ffffff;
+    
+        
+        
+        
+                &IC {
+                    font-size: 38px;
+        
+                    margin-left: 10px;
+                }
+        
+                &Content {
+                    margin-right: 10px;
+        
+                    p {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+        
+                    .count {
+                        text-align: right;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                }
+        
+            }
+        }
+
+        &:nth-child(2) {
+            .overviewItem {
+                border-radius: 10px;
+                padding: 10px 5px;
+                cursor: pointer;
+        
+                background-color: #1F8A70;
+                background-image: linear-gradient(160deg, #1F8A70 0%, #7ef5d7 100%);
+                color: #ffffff;
+    
+        
+                &IC {
+                    font-size: 38px;
+        
+                    margin-left: 10px;
+                }
+        
+                &Content {
+                    margin-right: 10px;
+        
+                    p {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+        
+                    .count {
+                        text-align: right;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                }
+        
+            }
+        }
+
+        
+        &:nth-child(3) {
+            .overviewItem {
+                border-radius: 10px;
+                padding: 10px 5px;
+                cursor: pointer;
+        
+                background-color: #879e16;
+                background-image: linear-gradient(160deg, #879e16 0%, #def086 100%);
+                color: #ffffff;
+    
+        
+                &IC {
+                    font-size: 38px;
+        
+                    margin-left: 10px;
+                }
+        
+                &Content {
+                    margin-right: 10px;
+        
+                    p {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+        
+                    .count {
+                        text-align: right;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                }
+        
+            }
+        }
+
+        &:nth-child(4) {
+            .overviewItem {
+                border-radius: 10px;
+                padding: 10px 5px;
+                cursor: pointer;
+        
+                background-color: #FC7300;
+                background-image: linear-gradient(160deg, #FC7300 0%, #f0ae79 100%);
+                color: #ffffff;
+    
+        
+                &IC {
+                    font-size: 38px;
+        
+                    margin-left: 10px;
+                }
+        
+                &Content {
+                    margin-right: 10px;
+        
+                    p {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+        
+                    .count {
+                        text-align: right;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                }
+        
+            }
+        }
+    }
+   
+}
